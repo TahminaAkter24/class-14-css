@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: #86c4f7;
+    height: 60px;
+}
+.logo{
+    width: 50px;
+    
+    float: left;
+    padding-top: 8px;
+    padding-left: 18px;
+}
+.menu{
+    text-align: right;
+    width: 700px;
+    float: left;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    padding-left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    
+}
+.menu ul li a:hover{
+    color:red
+}
+/*menu part end*/
+/*banner part start*/
+.banner_two{
+    text-align: center;
+}
+.banner_two h3{
+    Color: #f0f;
+    font-size: 30px;
+    line-height: 22px;
+    font-family: 'Roboto Slad',serif;
+    font-weight: 400;
+    padding-top: 70px;
+}
+.banner_two p{
+    Color: #f0f;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto Slad',serif;
+    font-weight: 400;
+    padding-bottom: 70px;
+}
